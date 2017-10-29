@@ -34,6 +34,7 @@ em {
 
 h2 {
     font-size: 30px;
+    clear: both;
 }
 
 article{
@@ -42,19 +43,29 @@ article{
     border-bottom: 1px solid #CCC;
 }
 
-#main-footer {
+footer {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
+    clear: both;
 }
 
 .quotations {
+    font-style: italic;
 	background-color: #D9E5E3;
 	border: 10px solid #C2CCCA;
 	width: 250px;
 	box-sizing: border-box;
 	margin: 20px 40px;
     padding: 20px;
+}
+
+.quote1{
+   float: right;
+}
+
+.quote2{
+    float: left;
 }
 
 .title{
@@ -76,6 +87,11 @@ article{
 	color: #F2FFFC;
     padding: 20px;
     text-align: center;
+    float: right;
+    box-sizing: border-box;
+    width: 15%;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
 }
 
 .body-text {
@@ -119,4 +135,17 @@ article{
 
 .linkedin {
     background-image: url(linkedin.png);
+}
+
+.photo{
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+main{
+    float: left;
+    width: 85%;
 }
